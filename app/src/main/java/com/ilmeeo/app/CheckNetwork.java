@@ -1,3 +1,7 @@
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
 class CheckNetwork {
     static boolean isInternetAvailable(Context context) {
         ConnectivityManager cm =
